@@ -1,0 +1,12 @@
+# Eclipse stuff #
+#################
+/.classpath
+/.project
+/.settings
+
+# Build and unit tests stuff #
+#############################
+/logs
+/target
+/test-output
+/graphwalker.properties
