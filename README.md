@@ -20,9 +20,7 @@ needs to be locally installed.
 
 *   Install it:
 ```
-mvn install:install-file -Dfile=~/Downloads/graphwalker-2.5.16-SNAPSHOT.jar -DgroupId=org.graphwalker \
-
-      -DartifactId=graphwalker -Dversion=2.5.16-SNAPSHOT -Dpackaging=jar
+mvn install:install-file -Dfile=~/Downloads/graphwalker-2.5.16-SNAPSHOT.jar -DgroupId=org.graphwalker -DartifactId=graphwalker -Dversion=2.5.16-SNAPSHOT -Dpackaging=jar
 ```
 
 ## Run the examples
