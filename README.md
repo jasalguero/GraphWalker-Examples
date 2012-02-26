@@ -19,8 +19,9 @@ needs to be locally installed.
 *   Download graphwalker-2.5.16-SNAPSHOT.jar from http://graphwalker.org:8080/job/graphwalker/lastStableBuild/org.graphwalker$graphwalker//
 
 *   Install it:
-
+    ```
     mvn install:install-file -Dfile=~/Downloads/graphwalker-2.5.16-SNAPSHOT.jar -DgroupId=org.graphwalker -DartifactId=graphwalker -Dversion=2.5.16-SNAPSHOT -Dpackaging=jar
+    ```
 
 ## Run the examples
 
