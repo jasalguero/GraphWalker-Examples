@@ -9,14 +9,10 @@ import junit.framework.Assert;
 import org.graphwalker.exceptions.InvalidDataException;
 import org.graphwalker.generators.PathGenerator;
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Amazon extends org.graphwalker.multipleModels.ModelAPI {
   WebDriver driver = null;
@@ -108,7 +104,7 @@ public class Amazon extends org.graphwalker.multipleModels.ModelAPI {
    * @throws InterruptedException 
    */
   public void v_OtherBoughtBooks() throws InterruptedException {
-    Assert.assertTrue(verifyTextPresent("Customers Who Bought "));
+    Assert.assertTrue(verifyTextPresent("Customers Also Bought "));
   }
 
   /**
