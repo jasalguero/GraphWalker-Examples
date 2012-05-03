@@ -104,7 +104,7 @@ public class Amazon extends org.graphwalker.multipleModels.ModelAPI {
    * @throws InterruptedException 
    */
   public void v_OtherBoughtBooks() throws InterruptedException {
-    Assert.assertTrue(verifyTextPresent("Customers Also Bought "));
+    Assert.assertTrue(verifyTextPresent("Customers Who Bought "));
   }
 
   /**
